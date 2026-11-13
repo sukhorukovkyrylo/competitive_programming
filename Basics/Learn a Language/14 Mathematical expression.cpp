@@ -1,0 +1,28 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define ll long long
+#define endl '\n'
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    int a, b, c;
+    char ch, hq;
+    cin >> a >> ch >> b >> hq >> c;
+    if (ch == '+') {
+        if (a + b == c) cout << "Yes";
+        else cout << a + b;
+    } else if (ch == '-') {
+        if (a - b == c) cout << "Yes";
+        else cout << a - b;
+    } else {
+        if (a * b == c) cout << "Yes";
+        else cout << a * b;
+    };
+}
