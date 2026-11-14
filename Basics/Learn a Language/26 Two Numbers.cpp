@@ -1,0 +1,20 @@
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/H
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define ll long long
+#define endl '\n'
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    double a, b;
+    cin >> a >> b;
+    cout << "floor " << a << " / " << b <<" = " << floor(a/b) << endl;
+    cout << "ceil " << a << " / " << b <<" = " << ceil(a/b) << endl;
+    cout << "round " << a << " / " << b <<" = " << round(a/b) << endl;
+}
